@@ -1,0 +1,57 @@
+/* Cookie Notification */
+.inpush-cookie-notification-wrapper {
+}
+
+@media (min-width: 576px) {
+  .inpush-cookie-notification-wrapper {
+    max-width: 400px !important;
+  }
+}
+
+.inpush-cookie-notification-content {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.inpush-cookie-notification-header {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+
+.inpush-cookie-notification-image {
+  min-width: 50px !important;
+  height: 50px !important;
+  margin-right: 8px !important;
+}
+
+.inpush-cookie-notification-description {
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+}
+
+.inpush-cookie-notification-close {
+  align-self: end !important;
+}
+
+.inpush-cookie-notification-url {
+  font-weight: bold !important;
+}
+
+.inpush-cookie-notification-button {
+  border-radius: 4px !important;
+  padding: 6px !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  margin: 10px 0 !important;
+  display: block !important;
+  width: 100% !important;
+  border: 0 !important;
+  transition: opacity 0.3s !important;
+}
+
+.inpush-cookie-notification-button:hover {
+  opacity: 0.9 !important;
+  cursor: pointer !important;
+}

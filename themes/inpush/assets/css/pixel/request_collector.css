@@ -1,0 +1,100 @@
+/* Request Collector */
+.inpush-request-collector-wrapper {
+}
+
+@media (min-width: 576px) {
+  .inpush-request-collector-wrapper {
+    max-width: 390px !important;
+  }
+}
+
+.inpush-request-collector-content {
+  padding: 5px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.inpush-request-collector-header {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  margin-bottom: 25px !important;
+  width: 100% !important;
+}
+
+.inpush-request-collector-image {
+  min-width: 40px !important;
+  height: 40px !important;
+  margin-right: 8px !important;
+}
+
+.inpush-request-collector-header-text {
+  flex-grow: 1 !important;
+}
+
+.inpush-request-collector-title {
+  font-weight: bold !important;
+  font-size: 16px !important;
+  margin-bottom: 0 !important;
+}
+
+.inpush-request-collector-description {
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+}
+
+.inpush-request-collector-content-title {
+  font-weight: bold !important;
+  font-size: 18px !important;
+  margin-bottom: 0 !important;
+}
+
+.inpush-request-collector-content-description {
+  font-size: 16px !important;
+  margin-bottom: 25px !important;
+}
+
+.inpush-request-collector-close {
+  align-self: end !important;
+}
+
+.inpush-request-collector-form {
+  display: flex !important;
+  flex-direction: column !important;
+  margin-bottom: 15px !important;
+}
+
+.inpush-request-collector-row {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-bottom: 15px !important;
+}
+
+.inpush-request-collector-row input {
+  border: 0 !important;
+  background: white;
+  padding: 6px 12px !important;
+  color: #495057;
+  font-size: 14px !important;
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.12) !important;
+  border-radius: 3px 0 0 3px !important;
+}
+.inpush-request-collector-row input:focus {
+  outline: 0;
+}
+
+.inpush-request-collector-row button {
+  cursor: pointer !important;
+  background: black;
+  border: 0 !important;
+  font-size: 14px !important;
+  padding: 8px 13px !important;
+  color: white;
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.12) !important;
+  border-radius: 0 3px 3px 0 !important;
+}
+
+.inpush-request-collector-row button:focus {
+  outline: 0;
+}

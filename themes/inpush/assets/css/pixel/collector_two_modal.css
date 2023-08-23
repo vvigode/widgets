@@ -1,0 +1,105 @@
+/* Email Collector */
+.inpush-collector-two-modal-wrapper {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.inpush-collector-two-modal-image-holder {
+  min-width: 100% !important;
+  height: 250px !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
+.inpush-collector-two-modal-content {
+  padding: 30px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.inpush-collector-two-modal-header {
+  display: flex !important;
+  justify-content: right !important;
+}
+
+.inpush-collector-two-modal-title {
+  font-weight: bold !important;
+  font-size: 24px !important;
+  flex-grow: 1 !important;
+  margin-bottom: 25px !important;
+  text-align: center !important;
+}
+
+.inpush-collector-two-modal-description {
+  font-size: 16px !important;
+  margin-bottom: 25px !important;
+  text-align: center !important;
+}
+
+.inpush-collector-two-modal-form {
+  margin-bottom: 20px !important;
+}
+
+.inpush-collector-two-modal-row {
+  display: flex !important;
+  flex-direction: column !important;
+  margin-bottom: 15px !important;
+}
+
+.inpush-collector-two-modal-row input {
+  border: 1px solid hsla(0, 0%, 85%, 1) !important;
+  background: white;
+  padding: 12px 12px !important;
+  color: #495057;
+  font-size: 14px !important;
+  border-radius: 5px !important;
+  flex-grow: 1 !important;
+  margin-bottom: 10px !important;
+  transition: 0.3s border !important;
+}
+.inpush-collector-two-modal-row input:hover {
+  border: 1px solid hsla(0, 0%, 90%, 1) !important;
+}
+
+.inpush-collector-two-modal-row button {
+  flex-grow: 1 !important;
+  cursor: pointer !important;
+  background: black;
+  border: 0 !important;
+  font-size: 16px !important;
+  font-weight: bold;
+  padding: 12px 14px !important;
+  color: white;
+  border-radius: 5px !important;
+  transition: 0.3s opacity !important;
+}
+
+.inpush-collector-two-modal-row button:hover {
+  opacity: 0.95 !important;
+}
+
+.inpush-collector-two-modal-wrapper .inpush-close {
+  position: absolute !important;
+  right: 20px !important;
+}
+
+@media (min-width: 768px) {
+  .inpush-collector-two-modal-wrapper {
+    max-width: 700px !important;
+    flex-direction: row !important;
+  }
+
+  .inpush-collector-two-modal-image-holder {
+    min-width: 300px !important;
+    height: auto !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+  }
+}

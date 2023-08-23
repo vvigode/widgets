@@ -1,0 +1,63 @@
+/* Button bar */
+.inpush-button-bar-wrapper {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.inpush-button-bar-content {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.inpush-button-bar-row {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.inpush-button-bar-title {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  margin-bottom: 15px !important;
+}
+
+.inpush-button-bar-middle {
+  display: flex !important;
+  margin-bottom: 10px !important;
+}
+
+.inpush-button-bar-middle .inpush-close {
+  margin-left: 10px !important;
+}
+
+.inpush-button-bar-button {
+  flex-grow: 1 !important;
+  font-size: 14px !important;
+  background: white;
+  border-radius: 4px !important;
+  padding: 8px 12px !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  border: 0 !important;
+}
+
+@media (min-width: 768px) {
+  .inpush-button-bar-row {
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  .inpush-button-bar-title {
+    margin-right: 20px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .inpush-button-bar-middle {
+    margin-bottom: 0 !important;
+    align-items: center !important;
+  }
+
+  .inpush-button-bar-middle .inpush-close {
+    margin-left: 20px !important;
+  }
+}

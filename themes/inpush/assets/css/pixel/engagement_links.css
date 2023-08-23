@@ -1,0 +1,100 @@
+/* Engagement Links */
+.inpush-engagement-links-wrapper {
+  width: 300px !important;
+  max-width: 325px !important;
+}
+
+.inpush-engagement-links-content {
+  padding: 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.inpush-engagement-links-header {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.inpush-engagement-links-title {
+  font-size: 22px !important;
+  font-weight: bold !important;
+  flex-grow: 1 !important;
+  text-align: center !important;
+  margin-bottom: 0 !important;
+  cursor: pointer !important;
+}
+
+.inpush-engagement-links-hidden {
+  display: none !important;
+}
+
+.inpush-engagement-links-shown {
+  display: block !important;
+  visibility: visible !important;
+  animation: ease 0.3s fadeIn forwards !important;
+}
+
+.inpush-engagement-links-category-title {
+  margin-bottom: 5px !important;
+  text-align: center !important;
+  font-size: 18px !important;
+  color: black;
+}
+
+.inpush-engagement-links-category-description {
+  margin-bottom: 0 !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  color: black;
+}
+
+.inpush-engagement-links-category-links {
+  margin: 10px 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.inpush-engagement-links-category-link {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  margin-bottom: 10px !important;
+  padding: 4px 10px !important;
+  border-radius: 6px !important;
+  transition: all 0.3s !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+}
+
+.inpush-engagement-links-category-link:hover {
+  text-decoration: none !important;
+  opacity: 0.9 !important;
+}
+
+.inpush-engagement-links-category-link-image {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 10px !important;
+}
+
+.inpush-engagement-links-category-link-title {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  margin-bottom: 0 !important;
+}
+
+.inpush-engagement-links-category-link-description {
+  font-size: 11px !important;
+  margin-bottom: 0 !important;
+}
+
+.inpush-engagement-links-wrapper .inpush-close {
+  margin-left: 15px !important;
+}
+
+@media (min-width: 768px) {
+  .inpush-engagement-links-wrapper {
+    width: 315px !important;
+    max-width: 350px !important;
+  }
+}

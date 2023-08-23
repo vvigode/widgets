@@ -1,0 +1,40 @@
+/* Informational */
+.inpush-informational-bar-wrapper {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  .inpush-informational-bar-wrapper {
+  }
+}
+
+.inpush-informational-bar-content {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+
+.inpush-informational-bar-header {
+  display: flex !important;
+  width: 100% !important;
+  margin-bottom: 5px !important;
+}
+
+.inpush-informational-bar-title {
+  flex-grow: 1 !important;
+  font-weight: bold !important;
+  margin-bottom: 0 !important;
+}
+
+.inpush-informational-bar-description {
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+}
+
+.inpush-informational-bar-image {
+  min-width: 65px !important;
+  height: 65px !important;
+  margin-right: 25px !important;
+}

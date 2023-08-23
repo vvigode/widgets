@@ -1,0 +1,13 @@
+{
+    "plugin_id": "pro-notifications",
+    "name": "Pro Notifications",
+    "description": "The Pro Notifications plugin is meant to give you +10 extra new notification types.",
+    "version": "1.0.0",
+    "url": "https://inpushco.de/smoorf-pro-pack",
+    "author": "InPush",
+    "author_url": "https:\/\/inpush.ru\/",
+    "status": -2,
+    "actions": true,
+    "avatar_style": "background: #7474F8;\nbackground: -webkit-linear-gradient(top right, #7474F8, #A33BD5);\nbackground: -moz-linear-gradient(top right, #7474F8, #A33BD5);\nbackground: linear-gradient(to bottom left, #7474F8, #A33BD5);",
+    "icon": "🔥"
+}

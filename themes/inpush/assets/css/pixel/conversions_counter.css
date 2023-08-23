@@ -1,0 +1,47 @@
+/* Conversions Counter */
+.inpush-conversions-counter-wrapper {
+}
+
+@media (min-width: 576px) {
+  .inpush-conversions-counter-wrapper {
+    width: 300px !important;
+  }
+}
+
+.inpush-conversions-counter-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.inpush-conversions-counter-header {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  width: 100% !important;
+  margin-bottom: 5px !important;
+}
+
+.inpush-conversions-counter-number {
+  padding: 3px 18px !important;
+  border-radius: 4px !important;
+  font-weight: bolder !important;
+  font-size: 21px !important;
+  margin-right: 5px !important;
+}
+
+.inpush-conversions-counter-title {
+  font-size: 15px !important;
+  margin-bottom: 0 !important;
+}
+
+.inpush-conversions-counter-time {
+  font-size: 12px !important;
+  margin-bottom: 0 !important;
+  color: grey;
+}
+
+.inpush-conversions-counter-close {
+  align-self: end !important;
+}

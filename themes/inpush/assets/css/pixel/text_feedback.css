@@ -1,0 +1,97 @@
+/* Text Feedback */
+.inpush-text-feedback-wrapper {
+}
+
+.inpush-text-feedback-content {
+  padding: 5px 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.inpush-text-feedback-header {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.inpush-text-feedback-title {
+  font-size: 22px !important;
+  flex-grow: 1 !important;
+  text-align: center !important;
+  margin-bottom: 0 !important;
+  cursor: pointer !important;
+}
+
+.inpush-text-feedback-expand {
+  padding: 5px !important;
+  margin-right: 5px !important;
+  border: 0 !important;
+  background: none !important;
+}
+
+.inpush-text-feedback-hidden {
+  display: none !important;
+}
+
+.inpush-text-feedback-shown {
+  display: block !important;
+  visibility: visible !important;
+  animation: ease 0.3s fadeIn forwards !important;
+}
+
+.inpush-text-feedback-description {
+  font-size: 14px !important;
+  margin-bottom: 15px !important;
+  text-align: center !important;
+}
+
+.inpush-text-feedback-form {
+  margin-bottom: 20px !important;
+}
+
+.inpush-text-feedback-row {
+  display: flex !important;
+  flex-direction: column !important;
+  margin-bottom: 15px !important;
+}
+
+.inpush-text-feedback-row input {
+  border: 1px solid hsla(0, 0%, 85%, 1) !important;
+  background: white;
+  padding: 10px 12px !important;
+  color: #495057;
+  font-size: 14px !important;
+  border-radius: 5px !important;
+  flex-grow: 1 !important;
+  margin-bottom: 10px !important;
+  transition: 0.3s border !important;
+}
+.inpush-text-feedback-row input:hover {
+  border: 1px solid hsla(0, 0%, 90%, 1) !important;
+}
+
+.inpush-text-feedback-row button {
+  flex-grow: 1 !important;
+  cursor: pointer !important;
+  background: black;
+  border: 0 !important;
+  font-size: 16px !important;
+  font-weight: bold;
+  padding: 10px 14px !important;
+  color: white;
+  border-radius: 5px !important;
+  transition: 0.3s opacity !important;
+}
+
+.inpush-text-feedback-row button:hover {
+  opacity: 0.95 !important;
+}
+
+.inpush-text-feedback-wrapper .inpush-close {
+  margin-left: 15px !important;
+}
+
+@media (min-width: 768px) {
+  .inpush-text-feedback-wrapper {
+    max-width: 700px !important;
+  }
+}

@@ -1,0 +1,45 @@
+/* Live Counter */
+.inpush-live-counter-wrapper {
+  width: 220px !important;
+}
+
+@media (min-width: 576px) {
+  .inpush-live-counter-wrapper {
+    width: 280px !important;
+  }
+}
+
+.inpush-live-counter-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.inpush-live-counter-header {
+  display: flex !important;
+  width: 100% !important;
+}
+
+.inpush-live-counter-main {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-grow: 1 !important;
+}
+
+.inpush-live-counter-number {
+  padding: 3px 32px !important;
+  border-radius: 4px !important;
+  font-weight: bolder !important;
+  font-size: 21px !important;
+}
+
+.inpush-live-counter-close {
+  align-self: end !important;
+}
+
+.inpush-live-counter-description {
+  font-size: 14px !important;
+  margin-bottom: 16px !important;
+}
